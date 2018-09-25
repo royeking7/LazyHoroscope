@@ -15,10 +15,10 @@ int main()
   string last;
   
   //get user input
-  cout<<"Whats your first name? " <<first<< endl;
+  cout<<"What is your first name?" <<first<< endl;
   cin>>first;
   
-  cout<<"What is your last name? " <<last<< endl;
+  cout<<"What is your last name?" <<last<< endl;
   cin>>last;
 
   //tell fortune
@@ -31,11 +31,11 @@ int main()
   
   if(index=='a'||index=='A'||index=='e'||index=='E'||index=='i'||index=='I'||index=='o'||index=='O'||index=='u'||index=='U') 
   {  
-  cout<<"you are destined to be famous"<<endl;
+  cout<<"you are destined to be famous!"<<endl;
   }
   else
   {
-  cout<<"you should keep a low profile"<<endl;
+  cout<<"you should keep a low profile."<<endl;
   }
   
   if(index2=='a'||index2=='A'||index2=='e'||index2=='E'||index2=='i'||index2=='I'||index2=='o'||index2=='O'||index2=='u'||index2=='U')
