@@ -27,7 +27,6 @@ int main()
   
   //getting vowels
   index=first[0];
-  index2=last.length()-1;
   
   if(index=='a'||index=='A'||index=='e'||index=='E'||index=='i'||index=='I'||index=='o'||index=='O'||index=='u'||index=='U') 
   {  
@@ -38,11 +37,16 @@ int main()
   cout<<"you should keep a low profile."<<endl;
   }
   
+  index2=last.length()-1;
+
   if(index2=='a'||index2=='A'||index2=='e'||index2=='E'||index2=='i'||index2=='I'||index2=='o'||index2=='O'||index2=='u'||index2=='U')
   {
   cout<<"you have already met your true love"<<endl;
   }
-  
+  else 
+  {
+  cout<<"you have already met your true love"<<endl;
+  }
   
   cout<<"have a good day!"<<endl;
   
